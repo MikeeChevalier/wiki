@@ -1,6 +1,21 @@
 Our I/O = PNP(Sourcing) NOT NPN(Sinking)
 
 
+Provo 9144 14/4 Bulk Cable (Also according to Allen Bradley standard)
+1 - Black
+2 - White
+3 - Red
+4 - Green
+
+Provo 9147 14/7 Bulk Cable (Also according to Allen Bradley standard)
+1 - White/Black
+2 - Black
+3 - White
+4 - Red
+5 - Orange
+6 - Blue
+7 - Green
+
 A Coded EtherNET 8 Wire (left to right)
 
 1 - Green/White (Pair 1-2)
