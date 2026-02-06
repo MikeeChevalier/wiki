@@ -236,3 +236,9 @@ Unclamp_Step.X:= NOT Dry_Cycle AND Cycle_Complete AND NOT Tool_At_Home AND All_S
 ---
 
 ---
+SAFETY SETUP
+notes on EL1918
+^Kind of a pain in the ass. When doing the 6.2 we encountered some finicky things with it. here's a summary of issues and solutions that will probably be useful elsewhere for other safety linking like where we have EL6695s to communicate between cells.
+
+if your twinsafe editor is too old you won't be able to add EL1918 (FW2) alias devices. Not sure what the backstory is here but this is the alias device you need to use in order for everything to work properly. 
+When linking your decouple alias devices, you may sometimes encounter some crap where you're not given the option to select any inputs or outputs to map. Go to the target device, deselect the target, refresh the menu inside select target, then reselect it. this should re-add the input and output connections to the device in the hardware tree.
